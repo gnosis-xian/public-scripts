@@ -20,11 +20,7 @@ tensorflow/tensorflow \
 ```
 
 ### 更新数据源及模型
-```shell script
-cd /root/public-scripts && \
-git pull && \
-docker exec lucky-number /bin/sh /public-scripts/luck_number/update_model.sh
-```
+[update_model.sh](./host/update_model.sh)
 
 ### docker installation instruction (only on CentOS7)
 
