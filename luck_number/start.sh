@@ -11,3 +11,4 @@ else
   python get_train_data.py && \
   python train_model.py && \
   python predict_api.py
+fi
