@@ -1,4 +1,4 @@
-cd /predict_Lottery_ticket && python predict_api.py
+cd /predict_Lottery_ticket && git pull && python predict_api.py
 
 #cd / && \
 #apt install git -y && \
