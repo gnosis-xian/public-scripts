@@ -3,6 +3,11 @@
 docker rm -f lucky-number
 ```
 
+### Watch project logs.
+```shell script
+docker logs -f lucky-number --tail 100
+```
+
 ### 启动获取数据源、模型计算、rest api
 ```shell script
 cd /root/public-scripts && \
@@ -15,7 +20,11 @@ tensorflow/tensorflow \
 ```
 
 ### 更新数据源及模型
-[update_data_model](./host/update_data_model.sh)
+```shell script
+cd /root/public-scripts && \
+git pull && \
+docker exec lucky-number /bin/sh /public-scripts/luck_number/update_model.sh
+```
 
 ### docker installation instruction (only on CentOS7)
 
