@@ -1,6 +1,6 @@
 cd / && \
 apt install git -y && \
-git clone https://github.com/zepen/predict_Lottery_ticket.git && \
+git clone https://github.com/gnosis-xian/predict_Lottery_ticket.git && \
 cd predict_Lottery_ticket && \
 mkdir -p data && \
 pip install -r requirements.txt -i https://pypi.douban.com/simple/ && \
