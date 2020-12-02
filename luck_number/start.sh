@@ -1,4 +1,4 @@
-python predict_api
+cd /predict_Lottery_ticket && python predict_api
 
 cd / && \
 apt install git -y && \
