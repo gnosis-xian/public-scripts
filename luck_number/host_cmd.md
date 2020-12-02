@@ -20,6 +20,10 @@ tensorflow/tensorflow \
 ```
 
 ### 更新数据源及模型
+```shell script
+# crontab
+nohup sh /root/public-scripts/luck_number/host/update_model.sh > /tmp/lucky.log 2>&1 &
+```
 [update_model.sh](./host/update_model.sh)
 
 ### docker installation instruction (only on CentOS7)
