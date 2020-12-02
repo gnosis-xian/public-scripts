@@ -1,4 +1,4 @@
-cd / \
+cd / && \
 apt install git -y && \
 git clone https://github.com/zepen/predict_Lottery_ticket.git && \
 cd predict_Lottery_ticket && \
