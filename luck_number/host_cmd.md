@@ -15,3 +15,16 @@ cd /root/public-scripts && \
 git pull && \
 docker exec lucky-number /bin/sh /public-scripts/luck_number/update_model.sh
 ```
+
+### docker installation instruction
+```shell script
+yum install -y docker
+sudo mkdir -p /etc/docker
+sudo tee /etc/docker/daemon.json <<-'EOF'
+{
+  "registry-mirrors": ["https://dg3ojes4.mirror.aliyuncs.com"]
+}
+EOF
+sudo systemctl daemon-reload
+sudo systemctl restart docker
+```
