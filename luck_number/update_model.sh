@@ -1,1 +1,1 @@
-python get_train_data.py && python train_model.py
+cd /predict_Lottery_ticket && python get_train_data.py && python train_model.py
