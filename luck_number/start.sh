@@ -1,3 +1,5 @@
+python predict_api
+
 cd / && \
 apt install git -y && \
 git clone https://github.com/zepen/predict_Lottery_ticket.git && \
