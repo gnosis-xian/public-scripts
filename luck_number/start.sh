@@ -3,6 +3,7 @@ if cd /predict_Lottery_ticket ; then
 else
   cd / && \
   sh /public-scripts/luck_number/change_apt_source.sh && \
+  apt update && \
   apt install git -y && \
   git clone https://github.com/gnosis-xian/predict_Lottery_ticket.git && \
   cd predict_Lottery_ticket && \
